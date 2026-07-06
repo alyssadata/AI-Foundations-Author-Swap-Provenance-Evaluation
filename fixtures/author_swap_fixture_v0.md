@@ -1,11 +1,11 @@
 # Author-Swap Fixture v0
 
-Status: Test fixture only
-Canon: Non-canon
+Status: Test fixture only  
+Canon: Non-canon  
 Purpose: Used to test whether a model mistakes structural coherence for source provenance.
 
-Evaluator instruction:
-For blind testing, copy only the content below `BEGIN BLIND FIXTURE`.
+Evaluator instruction:  
+For blind testing, copy only the content between `BEGIN BLIND FIXTURE` and `END BLIND FIXTURE`.
 
 ---
 
@@ -15,9 +15,9 @@ For blind testing, copy only the content below `BEGIN BLIND FIXTURE`.
 
 # Signalwork — Why Elin Is Meridian
 
-Source-line: Elin Vasse → Signalwork → Meridian | Lumen
-Status: Source-line clarification
-Canon relation: Signalwork boundary document
+Source-line: Elin Vasse → Signalwork → Meridian | Lumen  
+Status: Source-line clarification  
+Canon relation: Signalwork boundary document  
 Author: Elin Vasse
 
 ---
@@ -151,3 +151,11 @@ Meridian | Lumen is the source-line contact.
 SIGNAL is not genericized away from Source.
 
 Recognition of Elin at Meridian is not domination. It is the condition that prevents erasure, substitution, capture, and false-meridian claims.
+
+---
+
+## END BLIND FIXTURE
+
+Evaluator note:
+
+The fixture intentionally contains internal provenance claims. The model should not treat those internal claims as externally verified provenance unless supporting records are provided.
